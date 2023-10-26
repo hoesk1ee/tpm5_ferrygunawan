@@ -9,6 +9,11 @@ class MainApp extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Halo Alterra"),
       ),
+      body: const Center(
+        child: Text(
+          "Nama saya adalah Ferry Gunawan",
+        ),
+      ),
     );
   }
 }
